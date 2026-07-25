@@ -1,0 +1,291 @@
+{
+  "version": 1,
+  "updated": "2026-07-25",
+  "tagLabels": {
+    "music": "音楽",
+    "education": "学習",
+    "puzzle": "パズル・ゲーム",
+    "aviation": "航空",
+    "transport": "交通",
+    "map": "地図",
+    "3d": "3D・シミュレーション",
+    "kids": "こども向け",
+    "data": "オープンデータ",
+    "tool": "ツール・記録",
+    "record": "記録"
+  },
+  "tagWeights": {
+    "music": 3,
+    "aviation": 3,
+    "transport": 3,
+    "puzzle": 3,
+    "kids": 3,
+    "record": 3,
+    "education": 2,
+    "map": 2,
+    "data": 2,
+    "3d": 1,
+    "tool": 1
+  },
+  "apps": [
+    {
+      "id": "6763555056",
+      "slug": "transit-log",
+      "name": "バスロケMAP",
+      "tagline": "東京のバスをリアルタイムで追跡",
+      "symbol": "🚌",
+      "tags": [
+        "transport",
+        "map",
+        "data"
+      ]
+    },
+    {
+      "id": "6766418614",
+      "slug": "prime-sudoku",
+      "name": "Prime Logic",
+      "tagline": "素数で解くロジックパズル集",
+      "symbol": "🔢",
+      "tags": [
+        "puzzle",
+        "education"
+      ]
+    },
+    {
+      "id": "6768064223",
+      "slug": "giken-band-app",
+      "name": "Giken Band Ensemble公式アプリ",
+      "tagline": "GBE公式 - スケジュール＆動画",
+      "symbol": "🎺",
+      "tags": [
+        "music"
+      ]
+    },
+    {
+      "id": "6779796875",
+      "slug": "flight-simulator",
+      "name": "Haneda Approach 3D",
+      "tagline": "羽田を飛ぶ3Dフライトシム",
+      "symbol": "✈️",
+      "tags": [
+        "aviation",
+        "3d"
+      ]
+    },
+    {
+      "id": "6779797820",
+      "slug": "kabu-note",
+      "name": "カブノート",
+      "tagline": "長期保有×買い直し判断ノート",
+      "symbol": "📈",
+      "tags": [
+        "record",
+        "tool"
+      ]
+    },
+    {
+      "id": "6779813293",
+      "slug": "airinfo-viewer",
+      "name": "空港気象",
+      "tagline": "空港の航空気象をすばやくチェック",
+      "symbol": "🌤",
+      "tags": [
+        "aviation",
+        "data",
+        "tool"
+      ]
+    },
+    {
+      "id": "6780131972",
+      "slug": "compose-studio",
+      "name": "Compose Studio Viewer",
+      "tagline": "MusicIL楽譜のビューア＆プレイヤー",
+      "symbol": "🎼",
+      "tags": [
+        "music"
+      ]
+    },
+    {
+      "id": "6780675912",
+      "slug": "fingering-master",
+      "name": "運指マスター",
+      "tagline": "管楽器の運指を音名で確認",
+      "symbol": "🎶",
+      "tags": [
+        "music",
+        "education"
+      ]
+    },
+    {
+      "id": "6781127907",
+      "slug": "solfege-line",
+      "name": "SolfegeLine",
+      "tagline": "聴いて鍛えるソルフェージュ耳トレ",
+      "symbol": "👂",
+      "tags": [
+        "music",
+        "education"
+      ]
+    },
+    {
+      "id": "6781213212",
+      "slug": "programmable-metronome",
+      "name": "プログラマブルメトロノーム",
+      "tagline": "テンポ・拍子が変わる曲の練習メトロノーム",
+      "symbol": "🎵",
+      "tags": [
+        "music",
+        "tool"
+      ]
+    },
+    {
+      "id": "6782231888",
+      "slug": "airport-mania",
+      "name": "空港マニア",
+      "tagline": "駐機場・誘導路がわかる空港地図",
+      "symbol": "🛫",
+      "tags": [
+        "aviation",
+        "map",
+        "data"
+      ]
+    },
+    {
+      "id": "6782287929",
+      "slug": "japan-map-puzzle",
+      "name": "にほんちずパズル",
+      "tagline": "ゆびではめる 47とどうふけん",
+      "symbol": "🗾",
+      "tags": [
+        "puzzle",
+        "education",
+        "map",
+        "kids"
+      ]
+    },
+    {
+      "id": "6782461808",
+      "slug": "root-drop",
+      "name": "√ドロップ",
+      "tagline": "√を重ねて育てる数字パズル",
+      "symbol": "√",
+      "tags": [
+        "puzzle",
+        "education"
+      ]
+    },
+    {
+      "id": "6785017738",
+      "slug": "ouchi-theater",
+      "name": "おうちシアター",
+      "tagline": "親が選んだ動画だけ、安心再生",
+      "symbol": "🎬",
+      "tags": [
+        "kids",
+        "tool"
+      ]
+    },
+    {
+      "id": "6786968262",
+      "slug": "mousou-rail",
+      "name": "妄想鉄道 3D",
+      "tagline": "実在の街を走る妄想鉄道シミュレーター",
+      "symbol": "🚃",
+      "tags": [
+        "transport",
+        "3d",
+        "map"
+      ]
+    },
+    {
+      "id": "6787604823",
+      "slug": "score-sync-viewer",
+      "name": "楽譜動画ビューア",
+      "tagline": "PDFスコアと動画を独立操作",
+      "symbol": "🎞",
+      "tags": [
+        "music",
+        "tool"
+      ]
+    },
+    {
+      "id": "6788288488",
+      "slug": "elements-gallery",
+      "name": "元素ギャラリー",
+      "tagline": "118元素をビジュアルで学ぶ図鑑",
+      "symbol": "🧪",
+      "tags": [
+        "education",
+        "3d"
+      ]
+    },
+    {
+      "id": "6790017213",
+      "slug": "counterpoint-dojo",
+      "name": "対位法道場",
+      "tagline": "対位法を理論と実践で学ぶ",
+      "symbol": "🎼",
+      "tags": [
+        "music",
+        "education"
+      ]
+    },
+    {
+      "id": "6790292467",
+      "slug": "three-lines",
+      "name": "今日の３行",
+      "tagline": "今日を3つの短文で残す",
+      "symbol": "📝",
+      "tags": [
+        "record",
+        "tool"
+      ]
+    },
+    {
+      "id": "6790808380",
+      "slug": "world-map-puzzle",
+      "name": "せかいちずパズル",
+      "tagline": "くに・ちいきのかたちで あそんで おぼえる",
+      "symbol": "🌍",
+      "tags": [
+        "puzzle",
+        "education",
+        "map",
+        "kids"
+      ]
+    },
+    {
+      "id": "6791385399",
+      "slug": "custom-tuner",
+      "name": "Custom Tuner",
+      "tagline": "音程が見える、シンプルチューナー",
+      "symbol": "🎯",
+      "tags": [
+        "music",
+        "tool"
+      ]
+    },
+    {
+      "id": "6791758964",
+      "slug": "opendata-catalog",
+      "name": "オープンデータカタログ",
+      "tagline": "行政オープンデータを横断検索",
+      "symbol": "🔍",
+      "tags": [
+        "data",
+        "tool"
+      ]
+    },
+    {
+      "id": "6792426188",
+      "slug": "tsumi-tower",
+      "name": "積みタワー3D",
+      "tagline": "リアル物理で積み上げる3Dタワー",
+      "symbol": "🧱",
+      "tags": [
+        "puzzle",
+        "3d"
+      ]
+    }
+  ]
+}
