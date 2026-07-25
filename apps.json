@@ -11,7 +11,21 @@
     "3d": "3D・シミュレーション",
     "kids": "こども向け",
     "data": "オープンデータ",
-    "tool": "ツール・記録"
+    "tool": "ツール・記録",
+    "record": "記録"
+  },
+  "tagWeights": {
+    "music": 3,
+    "aviation": 3,
+    "transport": 3,
+    "puzzle": 3,
+    "kids": 3,
+    "record": 3,
+    "education": 2,
+    "map": 2,
+    "data": 2,
+    "3d": 1,
+    "tool": 1
   },
   "apps": [
     {
@@ -20,7 +34,11 @@
       "name": "バスロケMAP",
       "tagline": "東京のバスをリアルタイムで追跡",
       "symbol": "🚌",
-      "tags": ["transport", "map", "data"]
+      "tags": [
+        "transport",
+        "map",
+        "data"
+      ]
     },
     {
       "id": "6766418614",
@@ -28,7 +46,10 @@
       "name": "Prime Logic",
       "tagline": "素数で解くロジックパズル集",
       "symbol": "🔢",
-      "tags": ["puzzle", "education"]
+      "tags": [
+        "puzzle",
+        "education"
+      ]
     },
     {
       "id": "6768064223",
@@ -36,7 +57,9 @@
       "name": "Giken Band Ensemble公式アプリ",
       "tagline": "GBE公式 - スケジュール＆動画",
       "symbol": "🎺",
-      "tags": ["music"]
+      "tags": [
+        "music"
+      ]
     },
     {
       "id": "6779796875",
@@ -44,7 +67,10 @@
       "name": "Haneda Approach 3D",
       "tagline": "羽田を飛ぶ3Dフライトシム",
       "symbol": "✈️",
-      "tags": ["aviation", "3d"]
+      "tags": [
+        "aviation",
+        "3d"
+      ]
     },
     {
       "id": "6779797820",
@@ -52,7 +78,10 @@
       "name": "カブノート",
       "tagline": "長期保有×買い直し判断ノート",
       "symbol": "📈",
-      "tags": ["tool"]
+      "tags": [
+        "record",
+        "tool"
+      ]
     },
     {
       "id": "6779813293",
@@ -60,7 +89,11 @@
       "name": "空港気象",
       "tagline": "空港の航空気象をすばやくチェック",
       "symbol": "🌤",
-      "tags": ["aviation", "data", "tool"]
+      "tags": [
+        "aviation",
+        "data",
+        "tool"
+      ]
     },
     {
       "id": "6780131972",
@@ -68,7 +101,9 @@
       "name": "Compose Studio Viewer",
       "tagline": "MusicIL楽譜のビューア＆プレイヤー",
       "symbol": "🎼",
-      "tags": ["music"]
+      "tags": [
+        "music"
+      ]
     },
     {
       "id": "6780675912",
@@ -76,7 +111,10 @@
       "name": "運指マスター",
       "tagline": "管楽器の運指を音名で確認",
       "symbol": "🎶",
-      "tags": ["music", "education"]
+      "tags": [
+        "music",
+        "education"
+      ]
     },
     {
       "id": "6781127907",
@@ -84,7 +122,10 @@
       "name": "SolfegeLine",
       "tagline": "聴いて鍛えるソルフェージュ耳トレ",
       "symbol": "👂",
-      "tags": ["music", "education"]
+      "tags": [
+        "music",
+        "education"
+      ]
     },
     {
       "id": "6781213212",
@@ -92,7 +133,10 @@
       "name": "プログラマブルメトロノーム",
       "tagline": "テンポ・拍子が変わる曲の練習メトロノーム",
       "symbol": "🎵",
-      "tags": ["music", "tool"]
+      "tags": [
+        "music",
+        "tool"
+      ]
     },
     {
       "id": "6782231888",
@@ -100,7 +144,11 @@
       "name": "空港マニア",
       "tagline": "駐機場・誘導路がわかる空港地図",
       "symbol": "🛫",
-      "tags": ["aviation", "map", "data"]
+      "tags": [
+        "aviation",
+        "map",
+        "data"
+      ]
     },
     {
       "id": "6782287929",
@@ -108,7 +156,12 @@
       "name": "にほんちずパズル",
       "tagline": "ゆびではめる 47とどうふけん",
       "symbol": "🗾",
-      "tags": ["puzzle", "education", "map", "kids"]
+      "tags": [
+        "puzzle",
+        "education",
+        "map",
+        "kids"
+      ]
     },
     {
       "id": "6782461808",
@@ -116,7 +169,10 @@
       "name": "√ドロップ",
       "tagline": "√を重ねて育てる数字パズル",
       "symbol": "√",
-      "tags": ["puzzle", "education"]
+      "tags": [
+        "puzzle",
+        "education"
+      ]
     },
     {
       "id": "6785017738",
@@ -124,7 +180,10 @@
       "name": "おうちシアター",
       "tagline": "親が選んだ動画だけ、安心再生",
       "symbol": "🎬",
-      "tags": ["kids", "tool"]
+      "tags": [
+        "kids",
+        "tool"
+      ]
     },
     {
       "id": "6786968262",
@@ -132,7 +191,11 @@
       "name": "妄想鉄道 3D",
       "tagline": "実在の街を走る妄想鉄道シミュレーター",
       "symbol": "🚃",
-      "tags": ["transport", "3d", "map"]
+      "tags": [
+        "transport",
+        "3d",
+        "map"
+      ]
     },
     {
       "id": "6787604823",
@@ -140,7 +203,10 @@
       "name": "楽譜動画ビューア",
       "tagline": "PDFスコアと動画を独立操作",
       "symbol": "🎞",
-      "tags": ["music", "tool"]
+      "tags": [
+        "music",
+        "tool"
+      ]
     },
     {
       "id": "6788288488",
@@ -148,7 +214,10 @@
       "name": "元素ギャラリー",
       "tagline": "118元素をビジュアルで学ぶ図鑑",
       "symbol": "🧪",
-      "tags": ["education", "3d"]
+      "tags": [
+        "education",
+        "3d"
+      ]
     },
     {
       "id": "6790017213",
@@ -156,7 +225,10 @@
       "name": "対位法道場",
       "tagline": "対位法を理論と実践で学ぶ",
       "symbol": "🎼",
-      "tags": ["music", "education"]
+      "tags": [
+        "music",
+        "education"
+      ]
     },
     {
       "id": "6790292467",
@@ -164,7 +236,10 @@
       "name": "今日の３行",
       "tagline": "今日を3つの短文で残す",
       "symbol": "📝",
-      "tags": ["tool"]
+      "tags": [
+        "record",
+        "tool"
+      ]
     },
     {
       "id": "6790808380",
@@ -172,7 +247,12 @@
       "name": "せかいちずパズル",
       "tagline": "くに・ちいきのかたちで あそんで おぼえる",
       "symbol": "🌍",
-      "tags": ["puzzle", "education", "map", "kids"]
+      "tags": [
+        "puzzle",
+        "education",
+        "map",
+        "kids"
+      ]
     },
     {
       "id": "6791385399",
@@ -180,7 +260,10 @@
       "name": "Custom Tuner",
       "tagline": "音程が見える、シンプルチューナー",
       "symbol": "🎯",
-      "tags": ["music", "tool"]
+      "tags": [
+        "music",
+        "tool"
+      ]
     },
     {
       "id": "6791758964",
@@ -188,7 +271,10 @@
       "name": "オープンデータカタログ",
       "tagline": "行政オープンデータを横断検索",
       "symbol": "🔍",
-      "tags": ["data", "tool"]
+      "tags": [
+        "data",
+        "tool"
+      ]
     },
     {
       "id": "6792426188",
@@ -196,7 +282,10 @@
       "name": "積みタワー3D",
       "tagline": "リアル物理で積み上げる3Dタワー",
       "symbol": "🧱",
-      "tags": ["puzzle", "3d"]
+      "tags": [
+        "puzzle",
+        "3d"
+      ]
     }
   ]
 }
