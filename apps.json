@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-07-25",
+  "updated": "2026-08-13",
   "tagLabels": {
     "music": "音楽",
     "education": "学習",
@@ -285,6 +285,18 @@
       "tags": [
         "puzzle",
         "3d"
+      ]
+    },
+    {
+      "id": "6801019309",
+      "slug": "tokyo-map-puzzle",
+      "name": "東京地図パズル",
+      "tagline": "由来で集める 江戸の町名図鑑",
+      "symbol": "🗺️",
+      "tags": [
+        "puzzle",
+        "education",
+        "map"
       ]
     }
   ]
