@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-08-14",
+  "updated": "2026-09-12",
   "tagLabels": {
     "music": "音楽",
     "education": "学習",
@@ -282,6 +282,17 @@
       "name": "積みタワー3D",
       "tagline": "リアル物理で積み上げる3Dタワー",
       "symbol": "🧱",
+      "tags": [
+        "puzzle",
+        "3d"
+      ]
+    },
+    {
+      "id": "6794853205",
+      "slug": "kage-awase",
+      "name": "かげあわせ",
+      "tagline": "3つの影から、たった一つの立体を",
+      "symbol": "🌓",
       "tags": [
         "puzzle",
         "3d"
