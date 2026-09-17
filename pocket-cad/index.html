@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>サポート・使い方 - ポケCAD</title>
+  <link rel="stylesheet" href="../shared/style.css">
+  <style>
+    .shot { display: flex; gap: 20px; align-items: flex-start; margin: 16px 0 8px; }
+    .shot img { width: 42%; max-width: 260px; border-radius: 18px; box-shadow: 0 2px 10px rgba(0,0,0,0.15); flex-shrink: 0; }
+    .shot div p:first-child { margin-top: 0; }
+    .figure { width: 100%; border-radius: 12px; margin: 12px 0 4px; }
+    .caption { color: #6e6e73; font-size: 0.9em; margin-top: 0; }
+    .wide { width: 100%; border-radius: 12px; box-shadow: 0 2px 10px rgba(0,0,0,0.15); margin: 12px 0; }
+    ol.steps li { margin-bottom: 4px; }
+    kbd { background: #f0f0f3; border: 1px solid #ddd; border-radius: 5px; padding: 0 6px; font-family: inherit; font-size: 0.92em; }
+    .toc { background: #f5f5f7; border-radius: 12px; padding: 12px 20px; }
+    .toc ol { margin: 0; padding-left: 1.2em; }
+    @media (max-width: 520px) {
+      .shot { flex-direction: column; align-items: center; }
+      .shot img { width: 70%; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>ポケCAD - DXFビューア</h1>
+    <p>iPhone・iPadで DXF 図面をそのまま開き、ちょっとした書き込みや立体での確認、PDFでの共有ができるアプリです。アカウント登録は不要で、図面は端末（または iCloud Drive）にだけ保存されます。</p>
+    <img class="wide" src="img/ipad-plan.jpg" alt="iPadで間取り図を表示した画面">
+
+    <div class="toc">
+      <ol>
+        <li><a href="#open">図面を開く</a></li>
+        <li><a href="#move">画面を動かす</a></li>
+        <li><a href="#draw">描く・書き込む</a></li>
+        <li><a href="#number">高さや辺の数を入れる</a></li>
+        <li><a href="#solid">立体で見る</a></li>
+        <li><a href="#pdf">PDFで共有する</a></li>
+        <li><a href="#stuck">分からなくなったら</a></li>
+        <li><a href="#faq">よくある質問</a></li>
+      </ol>
+    </div>
+
+    <h2 id="open">1. 図面を開く</h2>
+    <div class="shot">
+      <img src="img/iphone-plan.jpg" alt="図面を開いた画面">
+      <div>
+        <p>アプリを起動すると、ファイルの一覧が出ます。DXFファイル（.dxf）を選ぶとそのまま開けます。メールやファイルアプリで受け取ったDXFは、「共有」からこのアプリを選んでも開けます。</p>
+        <p>新しく描くときは、一覧の「書類を作成」を押します。</p>
+        <p>元のDXFファイルは書き換えません。書き込んだ内容は、このアプリの図面ファイル（.pcad）として保存されます。</p>
+      </div>
+    </div>
+
+    <h2 id="move">2. 画面を動かす</h2>
+    <ul>
+      <li><strong>1本指でドラッグ</strong>: 図面を動かします（ツールの列のいちばん上「移動表示」のとき）</li>
+      <li><strong>2本指でドラッグ</strong>: どのツールを使っていても図面を動かせます</li>
+      <li><strong>2本指でピンチ</strong>: 拡大・縮小します</li>
+    </ul>
+    <p>iPhoneではツールの列が画面の右端に、iPadでは画面の下に並びます。</p>
+
+    <h2 id="draw">3. 描く・書き込む</h2>
+    <p>線分・円・円弧・楕円・曲線・矩形・正多角形・多角形・文字・引き出し線が使えます。ツールを選んで、図面の上をタップしていきます。</p>
+    <div class="shot">
+      <img src="img/iphone-drag.jpg" alt="線分の2点目をドラッグで探っている画面">
+      <div>
+        <p><strong>点はドラッグでも置けます。</strong>指を置いたまま動かすと、置かれる位置（橙の十字）と、その点で決まる形が表示され、指を離した位置で決まります。</p>
+        <p>図形の端点・中点・中心・交点やグリッドの近くでは自動で吸い付き、緑の四角が出ます。</p>
+        <p>点が指に隠れて見えにくいときは、右上の歯車（設定）→「ドラッグで置く点を指の上にずらす」をオンにしてください。</p>
+      </div>
+    </div>
+    <img class="figure" src="img/figure-drag.png" alt="ドラッグで点を探る図解">
+    <p class="caption">1点目 → 動かしている間は線の形が見える → スナップ先に緑の四角</p>
+    <h3>ツールごとの点の置き方</h3>
+    <ul>
+      <li><strong>線分</strong>: 始点 → 終点（続けて次の線も引けます）</li>
+      <li><strong>円</strong>: 中心 → 半径の位置</li>
+      <li><strong>円弧</strong>: 始点 → 円弧が通る点 → 終点</li>
+      <li><strong>楕円</strong>: 中心 → 軸の端 → もう一方の軸の幅</li>
+      <li><strong>曲線</strong>: 通る点を順に置き、<kbd>確定</kbd> で終わり。最初の点をタップすると閉じます</li>
+      <li><strong>多角形</strong>: 頂点を順に置き、最初の点をタップするか <kbd>確定</kbd> で閉じます</li>
+      <li><strong>文字</strong>: 置きたい位置をタップすると、その場に入力欄が出ます。すでにある文字をタップすると書き直せます</li>
+      <li><strong>引き出し線</strong>: 矢印の先 → （折る点）→ 文字の位置 → <kbd>確定</kbd> で文字を入力</li>
+    </ul>
+    <p>数値で正確に描くには、画面下の「数値入力」を押します（長さ <code>100</code>、角度付き <code>100&lt;45</code>、座標 <code>50,30</code>、前の点から <code>@10,5</code>）。「直交」をオンにすると縦横だけに引けます。</p>
+
+    <h2 id="number">4. 高さや辺の数を入れる</h2>
+    <div class="shot">
+      <img src="img/iphone-number.jpg" alt="直方体の高さをその場で入力している画面">
+      <div>
+        <p>直方体の高さや正多角形の辺の数のように、図面の上では指せない数値は、最後の点を置くと<strong>その近くに入力欄</strong>が出ます。</p>
+        <p>前回の値が選ばれた状態で出るので、同じでよければそのまま <kbd>確定</kbd>、変えるときは数字を押すと置き換わります。入力中は形も値に合わせて変わります。</p>
+        <p><kbd>キャンセル</kbd> を押すと、最後の点を置く前に戻ります。</p>
+      </div>
+    </div>
+    <img class="figure" src="img/figure-number.png" alt="数値のその場入力の図解">
+
+    <h2 id="solid">5. 立体で見る</h2>
+    <div class="shot">
+      <img src="img/iphone-3d.jpg" alt="机まわりの立体を3Dで表示した画面">
+      <div>
+        <p><strong>押し出し</strong>: 閉じた図形（矩形・円・楕円・多角形・閉じた曲線）を選ぶと、ツールの列に「押し出し」が出ます。形（柱・錐・錐台）と高さを決めると立体になり、自動で3D表示に切り替わります。</p>
+        <p><strong>回転体</strong>: 閉じた図形を選んで「回転体」を押し、回転の軸を2点タップします。</p>
+        <p><strong>直方体</strong>: 底面の2点を置き、高さを入れます。</p>
+        <p>3D表示では1本指で回り込めます（見るだけです）。「2Dに戻る」で元の位置に戻ります。</p>
+      </div>
+    </div>
+    <img class="figure" src="img/figure-extrude.png" alt="押し出しの形（柱・錐・錐台）の図解">
+    <p class="caption">押し出しの形。錐台は上面を底面の何%にするかを入れます</p>
+    <img class="figure" src="img/figure-revolve.png" alt="回転体の図解">
+    <p class="caption">回転体は、軸の片側に描いた形を軸のまわりに1周させます。図形が軸をまたいでいると作れません</p>
+
+    <h2 id="pdf">6. PDFで共有する</h2>
+    <div class="shot">
+      <img src="img/iphone-export.jpg" alt="PDF書き出しの画面">
+      <div>
+        <p>右上の書き出しボタン（PDF書き出し）を押し、用紙サイズ・向き・尺度・線の太さを選んで「生成」を押すと、プレビューが出ます。「共有」からメールやファイルアプリへ送れます。</p>
+        <p>提出用には「モノクロ」がおすすめです。</p>
+      </div>
+    </div>
+
+    <h2 id="stuck">7. 分からなくなったら</h2>
+    <p>ツールの列の端にある色の付いた場所の <kbd>キャンセル</kbd> を押すと、「打った点を戻す → ツールを戻す → 選択を解除」の順に1段ずつ戻ります。<strong>分からなくなったら連打</strong>すれば最初の状態（移動表示）に戻り、それ以上押しても何も起きません。</p>
+    <p>アプリ内でも、右上の <kbd>?</kbd> から図解つきの使い方を見られます。</p>
+
+    <h2 id="faq">よくある質問</h2>
+    <details>
+      <summary>DWGファイルは開けますか？</summary>
+      <p>開けません。DXF形式（.dxf）に対応しています。お使いのCADでDXFとして書き出してから開いてください。</p>
+    </details>
+    <details>
+      <summary>文字が化けます</summary>
+      <p>Shift_JIS（CP932）・UTF-8のDXFに対応しています。それでも化ける図面があれば、差し支えない範囲でファイルをお送りいただけると調査できます。</p>
+    </details>
+    <details>
+      <summary>表示されない図形があります</summary>
+      <p>ハッチング（HATCH）やマルチ引出線（MLEADER）など、まだ読めない図形があります。図面を開いたときに上に出るお知らせ、または右上の「取り込み結果」から、読めなかった図形とその理由を確認できます。</p>
+    </details>
+    <details>
+      <summary>書き込んだ図面はどこに保存されますか？</summary>
+      <p>ファイルの一覧で選んだ場所（この端末、または iCloud Drive）に、.pcad 形式で自動保存されます。元のDXFは書き換えません。</p>
+    </details>
+    <details>
+      <summary>アカウント登録やインターネット接続は必要ですか？</summary>
+      <p>アカウント登録は不要です。図面の表示・編集はオフラインでできます。広告の表示にはインターネット接続を使います。</p>
+    </details>
+    <details>
+      <summary>広告はどこに出ますか？</summary>
+      <p>図面を編集する画面には出しません。PDF書き出しの画面と設定画面の下部にバナーが出るほか、PDFを共有し終えたあとに全画面の広告が出ることがあります（1日1回まで。使い始めてから3日間は出ません）。</p>
+    </details>
+
+    <div class="links">
+      <a class="card" href="privacy-policy.html">🔒 プライバシーポリシー</a>
+      <a class="card" href="mailto:thivanao@gmail.com">✉️ お問い合わせ</a>
+    </div>
+
+    <footer>© 2026 thivanao</footer>
+  </div>
+</body>
+</html>
