@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-09-12",
+  "updated": "2026-09-25",
   "tagLabels": {
     "music": "音楽",
     "education": "学習",
@@ -295,6 +295,17 @@
       "symbol": "🌓",
       "tags": [
         "puzzle",
+        "3d"
+      ]
+    },
+    {
+      "id": "6812973152",
+      "slug": "pocket-cad",
+      "name": "ポケCAD",
+      "tagline": "DXF図面を開いて、書いて、立体で見る",
+      "symbol": "📐",
+      "tags": [
+        "tool",
         "3d"
       ]
     }
