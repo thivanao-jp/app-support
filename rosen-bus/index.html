@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>妄想路線バス サポート</title>
+<style>*, *::before, *::after { box-sizing: border-box; }
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
+  background: #f5f5f7;
+  color: #1d1d1f;
+  margin: 0;
+  padding: 20px;
+  line-height: 1.7;
+}
+
+.container {
+  max-width: 680px;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 16px;
+  padding: 32px 28px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+}
+
+nav { margin-bottom: 24px; }
+nav a { color: #007aff; text-decoration: none; font-size: 0.95em; }
+
+h1 { font-size: 1.7em; margin-top: 0; }
+h2 { font-size: 1.1em; margin-top: 2em; border-bottom: 1px solid #eee; padding-bottom: 6px; }
+
+a { color: #007aff; }
+
+/* サポートトップのカードリンク */
+.links { display: flex; flex-direction: column; gap: 12px; margin-top: 24px; }
+.card {
+  display: block;
+  padding: 16px 20px;
+  background: #f5f5f7;
+  border-radius: 12px;
+  text-decoration: none;
+  color: #1d1d1f;
+  font-weight: 500;
+  transition: background 0.15s;
+}
+.card:hover { background: #e8e8ed; }
+
+/* FAQ のアコーディオン */
+details {
+  border: 1px solid #eee;
+  border-radius: 10px;
+  padding: 12px 16px;
+  margin-bottom: 10px;
+}
+details[open] { background: #f9f9fb; }
+summary {
+  font-weight: 500;
+  cursor: pointer;
+  list-style: none;
+  padding-right: 8px;
+}
+summary::-webkit-details-marker { display: none; }
+summary::after { content: " ＋"; color: #999; float: right; }
+details[open] summary::after { content: " −"; }
+details p { margin: 10px 0 0; color: #444; }
+
+footer {
+  margin-top: 40px;
+  color: #999;
+  font-size: 0.85em;
+  text-align: center;
+}
+
+.draft {padding:14px 16px;border:1px solid #dfc36b;border-radius:10px;background:#fff8db;font-size:.9em;margin-bottom:24px;}
+.draft strong{display:block;margin-bottom:4px} .planned-url{font-size:.85em;overflow-wrap:anywhere;color:#666;}
+.table-scroll{overflow-x:auto}table{width:100%;border-collapse:collapse;font-size:.9em}th,td{text-align:left;vertical-align:top;border-bottom:1px solid #ddd;padding:10px 8px}th{background:#f5f5f7}td code{overflow-wrap:anywhere;font-size:.9em}a:focus-visible,summary:focus-visible{outline:3px solid #e78c24;outline-offset:4px}
+@media(max-width:500px){body{padding:12px}.container{padding:24px 18px}h1{font-size:1.45em}}
+</style>
+</head>
+<body>
+<main class="container">
+<h1>妄想路線バス サポート</h1>
+<p>停留所を自分で決めた路線や、レインボーブリッジを渡る復刻の虹01で、実在の街を題材にした車窓を楽しむアプリです。走行は自動で、ハンドル操作はありません。</p>
+<p>現在の無料版は日本語・日本国内向けで、広告・アプリ内課金なしです。無料版では、築地・勝どきで路線作成を体験できます。次バージョンでは有料版をリリースし、都内の多数の地域で路線を作成できるようにする予定です。</p>
+<div class="links"><a class="card" href="privacy-policy.html">プライバシーポリシー</a><a class="card" href="mailto:thivanao@gmail.com">お問い合わせ：thivanao@gmail.com</a></div>
+
+<h2>操作ガイドを開く</h2>
+<p>アプリの最初のメニューにある「操作ガイド」から、自作路線の作り方、復刻虹01、走行中の操作を確認できます。路線詳細の「使い方」からも同じガイドを開けます。ガイドの本文と説明図はアプリに同梱しています。</p>
+
+<h2>収録路線</h2>
+<ul><li>業10：新橋〜とうきょうスカイツリー駅前</li><li>都04：東京駅丸の内南口〜豊海水産埠頭</li><li>復刻 虹01：浜松町駅前〜東京ビッグサイト</li><li>名古屋 基幹2：栄〜引山（中央バスレーンを通る参考経路）</li></ul>
+<p>それぞれ往復を選べます。虹01は旧路線を参考に、現在の道路で再構成した復刻です。旧停留所の位置は推定で、ダイヤはアプリ独自の設定です。</p>
+
+<h2>よくある操作</h2>
+<details open><summary>自分の路線はどこで作れますか？</summary><p>メニューの「地域からつくる」→「築地・勝どき」を開きます。地図に表示した主要道路上で、起点・停留所・終点を順に選びます。途中で通過するだけの場所も指定できます。2〜12地点を選び、路線名を付けて「保存して試す」を押します。無料版で路線作成を体験できる地域は築地・勝どきで、端末内に10路線まで保存できます。</p></details>
+<details><summary>保存した路線を削除するには？</summary><p>「地域からつくる」→「築地・勝どき」を開き、画面下の「このエリアで保存した路線」にある、対象路線の横の「削除」を押します。</p></details>
+<details><summary>走行中に別の停留所へ移れますか？</summary><p>「一時停止」→「停留所・途中地点へ移動」を開き、移動先の「ここへ移動」を押します。移動先からの運行に切り替わり、一時停止のまま表示します。「つづける」で再開できます。途中地点は、設定されている長距離路線で表示されます。</p></details>
+<details><summary>車窓を見る方向を変えるには？</summary><p>「視点」で運転席と追っかけ視点を切り替えます。運転席では「左を見る」「右を見る」と「前」を使います。追っかけ視点では風景をドラッグしてカメラを回し、「追っかけ視点に戻す」で元の位置へ戻せます。</p></details>
+<details><summary>インターネット接続は必要ですか？</summary><p>背景地図・地形・航空写真・建物を取得するために通信を使います。初回の読み込みに時間がかかる場合があります。操作ガイドの本文と説明図、自作路線の保存は端末内の機能です。景観データを含むアプリ全体がオフラインで動く仕様ではありません。</p></details>
+<details><summary>表示が重い場合は？</summary><p>メニューの「全体設定」か走行中の「設定」で、描画を「軽量」に変更してください。描画を変更すると路線を読み直し、出発前の画面へ戻ります。</p></details>
+
+<h2>使用しているデータ</h2>
+<ul><li>地形・航空写真・背景地図：<a href="https://maps.gsi.go.jp/development/ichiran.html" target="_blank" rel="noopener noreferrer">国土地理院 地理院タイル</a></li><li>建物3Dモデル：<a href="https://www.mlit.go.jp/plateau/" target="_blank" rel="noopener noreferrer">国土交通省 Project PLATEAU</a></li><li>道路などの地理情報：<a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer">OpenStreetMap contributors</a></li><li>停留所・運行の元データ：東京都交通局・公共交通オープンデータ協議会、名古屋市交通局など。路線ごとの出典とライセンスは、アプリの「データの出典」に表示します。</li></ul>
+<p>経路・停留所位置・道路や構造物には推定と簡略化を含み、ダイヤも体験用に調整しています。本アプリは非公式の車窓アプリで、実在の交通事業者とは関係ありません。</p>
+<h2>地理・路線データの提供</h2>
+<p>OpenStreetMap由来の道路などを加工したデータベースを、ODbL 1.0に基づいて無料で提供します。アプリ1.0.0に同梱する35個の路線JSONと共通構造物JSONです。プログラムや景観画像、利用者が保存した自作路線は含みません。</p>
+<ul><li><a href="data/rosen-bus-1.0.0-geodata.zip">1.0.0の地理・路線データをダウンロード（ZIP・約4.9MB）</a></li><li><a href="data/README-1.0.0.md">出典・ライセンスと加工内容</a></li><li><a href="data/source-manifest-1.0.0.json">ファイルごとのSHA-256</a> / <a href="data/rosen-bus-1.0.0-geodata.zip.sha256">ZIPのSHA-256</a></li></ul>
+<footer>最終更新日：2026年11月14日<br>妄想路線バス</footer>
+</main>
+</body>
+</html>

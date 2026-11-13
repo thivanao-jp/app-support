@@ -1,0 +1,190 @@
+{
+  "version": "1.0.0",
+  "sourceCommit": "6e710af7a2aa77cd0736ecc98cf3bab9fb0d478c",
+  "scope": "35 route JSON and one common structure JSON bundled in app; no user data, raw source, program or remote scenery assets",
+  "dataLicense": "ODbL-1.0 for the database and OSM-derived portions; CC-BY-4.0 notices retained for GTFS contents",
+  "files": [
+    {
+      "file": "routes/aki26-in.json",
+      "bytes": 712740,
+      "sha256": "ab819b2b2ea429b9bbcfa2bc22668d8b3c56ad16c1c5e88b8a0f1efa80d52a12"
+    },
+    {
+      "file": "routes/aki26-out.json",
+      "bytes": 705780,
+      "sha256": "7a8377bfc4795b7dc9d62e4fb71083e915b1f8805f00fbebe755a619b48cd8e8"
+    },
+    {
+      "file": "routes/gyo10-a.json",
+      "bytes": 207633,
+      "sha256": "ad6683904cf63d5eab158caef182f3abe776775046ed0f97f27aae55d5ac826b"
+    },
+    {
+      "file": "routes/gyo10-depot-shimbashi-in.json",
+      "bytes": 350744,
+      "sha256": "c82a5a30c9d2f71f76143a7a9296364472219d8d05af1a5ff53d3ab639c33035"
+    },
+    {
+      "file": "routes/gyo10-depot-shimbashi-out.json",
+      "bytes": 354260,
+      "sha256": "3545ebd4457bb99e5bb60339cdb538dc0db438e643386249a1cb5a5e68edb3dd"
+    },
+    {
+      "file": "routes/gyo10-depot-skytree-in.json",
+      "bytes": 494118,
+      "sha256": "8251bfdd7c520549c95f9523d491185717394a1dcdb00c625cc149b24f03c8b8"
+    },
+    {
+      "file": "routes/gyo10-depot-skytree-out.json",
+      "bytes": 473720,
+      "sha256": "b2ae4064fb7360e34ee9c8cca642d4ff35b97a118d370ef859ec7ceb548ad83d"
+    },
+    {
+      "file": "routes/gyo10-in.json",
+      "bytes": 749711,
+      "sha256": "3790fc7882a3a705b4685fa4974faaa307f44061d2e58594cc62e9379da39d28"
+    },
+    {
+      "file": "routes/gyo10-out.json",
+      "bytes": 714589,
+      "sha256": "ab502d7cb157d13ef26727aa0baeed095caacf18817abc914c839f6e5b16b7ed"
+    },
+    {
+      "file": "routes/hama95-in.json",
+      "bytes": 396040,
+      "sha256": "6829eeefcf40ea1c933fca0d90d2dae2e5af5ab25c3589ea691f5d5a1d761579"
+    },
+    {
+      "file": "routes/hama95-out.json",
+      "bytes": 392999,
+      "sha256": "cb12911883f2b09a22bb453e9df3fea20bd97160e2cc56c8253342000e9dfb44"
+    },
+    {
+      "file": "routes/higashi22-in.json",
+      "bytes": 689721,
+      "sha256": "319234eac210fc7d50700ab5147d99363dd8c48fd16bd03bcce70a1394ec471f"
+    },
+    {
+      "file": "routes/higashi22-out.json",
+      "bytes": 689028,
+      "sha256": "3e054c2c22b2263d692c6a0b63530ff764731284456101c4f8c2145a8426bfc6"
+    },
+    {
+      "file": "routes/nagoya-kikan2-in.json",
+      "bytes": 339727,
+      "sha256": "840f25f13e266d2119195e16f65914987e191883cf8f65b1680071b4080c7918"
+    },
+    {
+      "file": "routes/nagoya-kikan2-out.json",
+      "bytes": 346590,
+      "sha256": "cec581e3a85536ccdb22254bed52af3b3e50385c74b746486070bf17d8541a65"
+    },
+    {
+      "file": "routes/nagoya-sakae21-out.json",
+      "bytes": 486458,
+      "sha256": "587e59efcd420da8c0e73a5f44bcd630da4708c3f89b0a374e01e269c0f9616d"
+    },
+    {
+      "file": "routes/niji01-in.json",
+      "bytes": 419339,
+      "sha256": "2e9e6d3647f651aa40da4940e828a12037a1a857d0680a29e45938005735009e"
+    },
+    {
+      "file": "routes/niji01-out.json",
+      "bytes": 420310,
+      "sha256": "cce31ad9d46cb3d44d8d612f13078253a920b011c24de2397afc7ec30d8821af"
+    },
+    {
+      "file": "routes/shinjuku-haneda-out.json",
+      "bytes": 1199884,
+      "sha256": "846adf66eb3db2462f4fe23f6801a869772949dba5a758cfaeb066837ac859ca"
+    },
+    {
+      "file": "routes/tcat-haneda-out.json",
+      "bytes": 795458,
+      "sha256": "5478be59483cf4230aed8d3140bacec91506d35c42b2da5d0d8f66d77f8d5c08"
+    },
+    {
+      "file": "routes/tcat-narita-out.json",
+      "bytes": 860367,
+      "sha256": "c92873cf4418fb1b5832039adaf9ec5a51c790f954c96a45a32b770c58018e23"
+    },
+    {
+      "file": "routes/to01-in.json",
+      "bytes": 467143,
+      "sha256": "c0bf78231df1aa5298167c256b77289a9db06716c46865cb4ee7b4860629db8f"
+    },
+    {
+      "file": "routes/to01-out.json",
+      "bytes": 468306,
+      "sha256": "86d4873e97e85895a6a1662424ea546a8961671f911d46557d5acde101fcfbcb"
+    },
+    {
+      "file": "routes/to02-in.json",
+      "bytes": 755097,
+      "sha256": "da186838f9f042814c240a5e53bf9427ff764e413e74ccf96fc6dc7ff11ed069"
+    },
+    {
+      "file": "routes/to02-out.json",
+      "bytes": 789965,
+      "sha256": "f7e1809c755c167a587748619108a5623f2b79682fb83edd14f0a5ea73b2c054"
+    },
+    {
+      "file": "routes/to04-in.json",
+      "bytes": 364150,
+      "sha256": "d2fa7d71d4382f13743c78687daafbacb503ce6ea0267843a6b68b9c0e077882"
+    },
+    {
+      "file": "routes/to04-out.json",
+      "bytes": 380631,
+      "sha256": "5e0a2ac872bd65d66334c0149ba652e7062f3599df64b9e5f0204c4feb8a1434"
+    },
+    {
+      "file": "routes/to05-2-in.json",
+      "bytes": 385655,
+      "sha256": "c296a1c86141874fcfd7a20d87c6c74e003783ae5947d054ac1f214630f0838d"
+    },
+    {
+      "file": "routes/to05-2-out.json",
+      "bytes": 407163,
+      "sha256": "c15ee85f5c45906448aeda271ec0d7afd61ae8e7685a204d58078e57455e4451"
+    },
+    {
+      "file": "routes/to07-in.json",
+      "bytes": 476387,
+      "sha256": "769bce707d37ffa7b5e51da363ccf8cc6462233872c12b56b7906ed5ecf6218e"
+    },
+    {
+      "file": "routes/to07-out.json",
+      "bytes": 468862,
+      "sha256": "8d4e6d962af6f7964854488c71e7a33fb464ed17e92969d941c3afb7f6cdf818"
+    },
+    {
+      "file": "routes/to08-in.json",
+      "bytes": 521584,
+      "sha256": "16db886e556b4f084d786195ceb76e733db35ec40202d31a44822d379feb4493"
+    },
+    {
+      "file": "routes/to08-out.json",
+      "bytes": 517201,
+      "sha256": "d7ea42015c0f99e6dd8eb153ae917dca067601a1e2592abcfc2114b7301f43ea"
+    },
+    {
+      "file": "routes/umi01-in.json",
+      "bytes": 376424,
+      "sha256": "4df1cfae0c67d2cbea84d7a67b78acd4e34eec7eb155e6e3287e5d76913127b7"
+    },
+    {
+      "file": "routes/umi01-out.json",
+      "bytes": 370986,
+      "sha256": "83ec2371c7a16369d9e4896f4fd013f2a46460fb00a58be687c49015b26713f4"
+    },
+    {
+      "file": "structures/tokyo-structures.json",
+      "bytes": 1435200,
+      "sha256": "5cc8115686f1313720eb81132fa9fe5d5db01afa19df9dfce2a887bb672fb42a"
+    }
+  ],
+  "count": 36,
+  "dataBytes": 19983970
+}
