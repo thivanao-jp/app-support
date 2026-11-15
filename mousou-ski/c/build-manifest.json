@@ -1,0 +1,29 @@
+{
+  "format": 1,
+  "source": {
+    "web/share-landing.js": "7d9e682f0a5d582aed6c8e4e6b76387161b37a2ba0039b794f7ec4818050d360",
+    "web/share-landing.html": "11a4d15182a7035bb637a9b38d74f11d0a73bc2cc27170ac8639bfe83ca71be8",
+    "web/share-landing.css": "9cae21da0d7bad4eae9bd00281eb3cc0e42b572401bb66ddde6681a47e3165d7",
+    "src/compat.js": "cad22d5f6efbf0b5e13bf1c5a8596236d1c87d588d06d4f69498ef4c82700c20",
+    "src/resort-share.js": "756a9b8a0ed24c1bcd22f6740d27a6cfe095be882de9929ae19fb542662a0909",
+    "src/share-plan.js": "f93f1af8491c8ea817690dd1179467828a046b2f02636935fd3bd3820846f9df",
+    "src/resort.js": "27e597c784f104ab8df7da3c4e761fac5dbb8e246d59da6153416b34a64e79d4",
+    "src/regions.js": "aa4729a8ec6c0ae81e9c9b536c158de9b4d900f24eaafb4dc270872e519572a7",
+    "src/core.js": "971a1d6892bf08b7b8927803a88ec4c7fcc955ae307c7ffb7e2c1c5b63ee61e7",
+    "src/data-clone.js": "c42ad254facb4859f77da523b782cdcdd0a1a5d35bfdc88f01f0f83e5b297fc5",
+    "src/ramps.js": "f7c29b3ef9bb063e632d0e927ae3ac7a5d5020227a10db2b163a37ad2f99e844",
+    "src/i18n.js": "db8af6096983bd6a048a2098e28ebca87e8866a9552f1ab8e32de081bc62ca18",
+    "src/platform.js": "181a250a4e92b3619d1699646c08506fbe52d1d6db7c6477832e49cb502347f5",
+    "src/locales/en.json": "b6bbe4340f2a611d3b04a7ea1420762d2b2ab7aeab1cf96254b1ed46e3a567f8",
+    "src/courses.json": "06a5066599c49422935f44b48ec7fd9db878aa29ac96411aeea84a3a422aace5",
+    "src/shiga-resort.json": "bdf833601ed91343a4121d2ecdb4bc1001cef742a106087f35838c105a74555b",
+    "package-lock.json": "86a5cdd2218a0a63bf4159935f69c2d0c0ca2c3e2e3ac00a07de5189db1ca9ea"
+  },
+  "files": {
+    "index.html": "11a4d15182a7035bb637a9b38d74f11d0a73bc2cc27170ac8639bfe83ca71be8",
+    "assets/capacitor-LICENSE.txt": "9c6ebf3e5ab832ba4d5af38f340978e1fedbfee6e3d23662dfdb8917a9d864dd",
+    "assets/landing.css": "9cae21da0d7bad4eae9bd00281eb3cc0e42b572401bb66ddde6681a47e3165d7",
+    "assets/landing.js": "0a6d56c1cb0d8b070e635f3ac32b8fd83b4a8f1f5d133fec234479f27b837441",
+    "assets/pako-LICENSE.txt": "a04665b3b2de56c66730c1f720f528175739e4104f79073614aa611da1e85539"
+  }
+}
